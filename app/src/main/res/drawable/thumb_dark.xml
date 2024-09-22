@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="@color/thumb_gray" />
+            <size
+                android:height="8dp"
+                android:width="8dp" />
+            <stroke android:width="4dp" android:color="@color/primary_color" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_ball_dark"
+        android:top="8dp"
+        android:bottom="8dp"
+        android:right="8dp"
+        android:left="8dp" />
+</layer-list>

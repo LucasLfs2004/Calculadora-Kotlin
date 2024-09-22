@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <solid android:color="@color/secondary_color" />
+            <size
+                android:width="72dp"
+                android:height="36dp" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+    <item
+        android:width="24dp"
+        android:bottom="8dp"
+        android:drawable="@drawable/ic_moon"
+        android:left="6dp"
+        android:right="6dp"
+        android:top="8dp" />
+    <item
+        android:width="24dp"
+        android:bottom="8dp"
+        android:drawable="@drawable/ic_sun"
+        android:left="46dp"
+        android:right="8dp"
+        android:top="8dp" />
+
+
+</layer-list>
