@@ -4,12 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary_color">#2E2F38</color>
     <color name="secondary_color">#fff</color>
-
     <color name="gray">#aaa</color>
     <color name="darkGray">#ff424242</color>
     <color name="track_color">#4B5EFC</color>
     <color name="thumb_gray">#4E505F</color>
     <color name="thumb_white">#D2D3DA</color>
-
     <color name="edit_text_bg">#2E2F38</color>
 </resources>

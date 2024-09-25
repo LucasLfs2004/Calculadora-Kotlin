@@ -10,8 +10,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Calculadora"
+        android:theme="@style/AppTheme.Dark"
         tools:targetApi="31">
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="Histórico de Operações"
+            android:theme="@style/AppTheme.Dark"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">

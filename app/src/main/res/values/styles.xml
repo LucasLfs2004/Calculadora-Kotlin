@@ -2,20 +2,21 @@
 <resources>
 
 
-    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light">
         <item name="android:background">#F1F2F3</item>
-        <item name="android:color">#000</item>
+        <item name="android:color">#000000</item>
 
         <item name="android:textViewStyle">@style/TextViewLight</item>
         <item name="android:editTextColor">#000</item>
         <item name="colorControlNormal">#000</item>
         <item name="backgroundColor">#ffffff</item>
 
+
     </style>
 
     <style name="AppTheme.Dark" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="android:background">#17171C</item>
-        <item name="android:color">#fff</item>
+        <item name="android:color">#ffffff</item>
         <item name="android:textViewStyle">@style/TextViewDark</item>
         <item name="android:editTextColor">#fff</item>
         <item name="colorControlNormal">#ffffff</item>
@@ -31,6 +32,8 @@
         <item name="android:paddingBottom">8dp</item>
 
     </style>
+
+
 
 
     <style name="TextViewLight">
@@ -51,7 +54,7 @@
     </style>
 
     <style name="ButtonOperator">
-
+<!--        <item name="android:background">#4B5EFC</item>-->
 
     </style>
 

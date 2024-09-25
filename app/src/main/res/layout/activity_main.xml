@@ -33,6 +33,7 @@
                 android:layout_height="wrap_content" />
 
             <Button
+                android:id="@+id/BtnHistory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
@@ -54,11 +55,21 @@
         </TextView>
 
         <EditText
+            android:id="@+id/InputValue1"
             style="@style/InputValue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_border"
             android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operação: "
+            android:id="@+id/OperationTextView"
+            android:layout_marginTop="18dp"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -69,12 +80,76 @@
         </TextView>
 
         <EditText
+            android:id="@+id/InputValue2"
             style="@style/InputValue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_border"
             android:inputType="numberDecimal" />
 
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:columnCount="4"
+            android:rowCount="5">
+
+            <!-- Botões da calculadora -->
+            <Button
+                android:id="@+id/btnPlus"
+                style="@style/ButtonOperator"
+                android:drawableTop="@drawable/ic_add"
+                android:background="@android:color/transparent"
+                 />
+
+            <Button
+                android:id="@+id/btnSub"
+                style="@style/ButtonOperator"
+                android:drawableTop="@drawable/ic_sub"
+                android:background="@android:color/transparent"
+                 />
+
+            <Button
+                android:id="@+id/btnMult"
+                style="@style/ButtonOperator"
+                android:drawableTop="@drawable/ic_multi"
+                android:background="@android:color/transparent"
+                 />
+
+            <Button
+                android:id="@+id/btnDiv"
+                style="@style/ButtonOperator"
+                android:drawableTop="@drawable/ic_div"
+                android:background="@android:color/transparent"
+                 />
+
+
+
+        </GridLayout>
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:background="@drawable/ic_resultado"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:height="72dp"
+            />
+
+        <TextView
+            android:id="@+id/TextResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="64dp"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textFontWeight="@integer/material_motion_duration_medium_2">
+
+        </TextView>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
