@@ -165,7 +165,6 @@ class MainActivity : AppCompatActivity() {
         updateResultText(formatNumber(result))
         inputValue1.text = null
         inputValue2.text = null
-        selectedOperation = ""
         operationTextView.text = "Operação:"
 
         Toast.makeText(this, "Cálculo armazenado com sucesso", Toast.LENGTH_SHORT).show()
@@ -179,6 +178,7 @@ class MainActivity : AppCompatActivity() {
                 Date()
             )
         )
+        selectedOperation = ""
     }
 
     fun salvarOperacao(context: Context, operacao: Operacao) {
